@@ -1,0 +1,60 @@
+.home-container{
+      display: grid;
+      grid-template-columns: 3fr 2fr;
+      margin-top: 100px;
+}
+
+.text1{
+      color: blue;
+      font-size: 80px;
+}
+.text2{
+      color: brown;
+      font-size: 75px;
+}
+.details-container{
+      margin-left: 80px;
+      line-height: 40px;
+      
+}
+.details-container p{
+      font-size: 20px;
+      color: rgb(36, 48, 57);
+}
+.img-container img{
+      height: 600px;
+      width: 400px;
+}
+.btn{
+      background-color: rgba(255, 68, 0, 0.693);
+      font-size: 15px;
+      color: aliceblue;
+      border: 3px solid rgb(210, 191, 191);
+      border-radius: 10px;
+      padding: 16px;
+      cursor: pointer;
+      
+}
+
+.revieew-section{
+      display: flex;
+      margin-top: 150px;
+      justify-content: center; 
+}
+
+.review-btn{
+      display: flex;
+      justify-content: center;
+      margin-top: 400px;
+      
+}
+.rev-btn{
+    font-size: 22px;
+    padding: 6px 30px;
+    background-color: blue;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+
+}
