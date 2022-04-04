@@ -1,0 +1,59 @@
+[
+      {
+            "id":1,
+            "name": "Dell Vostro 14 3400 Intel Core i3 1115G4 14 Inch HD Display Black Laptop",
+            "img": "https://www.ryanscomputers.com/storage/products/medium/dell-vostro-14-3400-intel-core-i3-1115g4-14-inch-11617258037.webp",
+            "comment": "Below 50,000 this model is the best.",
+            "ratting":"5",
+            "price":"48000",
+            "cname":"Rakib"
+      },
+      {
+            "id":2,
+            "name": "Lenovo IdeaPad Slim 3i 15ITL Intel Core i3 1005G1 15.6 Inch HD Antiglare Display Platinum Grey Laptop #81WE01J6IN-2Y",
+            "img": "https://www.ryanscomputers.com/storage/products/medium/lenovo-ideapad-slim-3i-15itl-intel-core-i3-1005g1-11634976849.webp",
+            "comment": "Very nice one. got it intact and authentic.",
+            "ratting":"5",
+            "price":"47,200",
+            "cname": "Milon "
+      },
+      {
+            "id":3,
+            "name": "Lenovo IdeaPad Slim 3i 15ITL Intel Core i3 1005G1 15.6 Inch HD Antiglare Display Abyss Blue Laptop #81WE01J8IN-2Y",
+            "img": "https://www.ryanscomputers.com/storage/products/medium/dell-inspiron-13-5310-intel-core-i5-11320h-133-11643104485.webp",
+            "comment": "100% intact and authentic. recommended seller",
+            "ratting":"4",
+            "price":"40020",
+            "cname" : "Habib"
+      },
+      {
+            "id":4,
+            "name": "Dell Inspiron 15 3511 Intel Core i3 1115G4 4GB RAM 15.6 Inch FHD Display Platinum Silver Laptop #WARLOCKN315TGL2205401-2Y",
+            "img": "https://www.ryanscomputers.com/storage/products/medium/dell-inspiron-15-3511-intel-core-i3-1115g4-4gb-11639206281.webp",
+            "comment": "alhumdulia everything was original thank you seller",
+            "ratting":"5",
+            "price":" 54,790",
+            "cname":"nurujaman"
+      },
+      {
+            "id":5,
+            "name": "Lenovo IdeaPad Slim 3i 15ITL6 11th Gen Intel Core i5 1135G7 15.6 Inch FHD Display Arctic Grey Laptop #82H801CBIN-2Y",
+            "img": "https://www.ryanscomputers.com/storage/products/medium/lenovo-ideapad-slim-3i-15itl6-11th-gen-intel-core-11636810342.webp",
+            "comment": "Excellent product with great service from Ryans Computer",
+            "ratting":"5",
+            "price":"70,800",
+            "cname":"sakib"
+      },
+      {
+            "id":6,
+            "name": "Lenovo IdeaPad Slim 3i 15IIL Intel Core i3 1005G1 15.6 Inch FHD Display Platinum Grey Laptop #81WE005HIN-2Y",
+            "img": "https://www.ryanscomputers.com/storage/products/medium/lenovo-ideapad-slim-3i-iil-10th-gen-intel-core-i3-11594899464.webp",
+            "comment": "Good Service provide by Ryan computer. Recommended",
+            "ratting":"4",
+            "price":"45,400",
+            "cname":"Rokib"
+      }
+      
+
+
+]

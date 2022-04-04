@@ -1,9 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
+import Home from '../Home/Home';
+import useReview from '../Hooks/Hooks';
+import Show from '../ShowDetails/Show';
+import './Review.css'
 
 const Review = () => {
+      const [reviews, setReviews] = useReview()
       return (
-            <div>
-                  <h1>this is headiing</h1>
+            <div className='review-section'>
+                  {
+                        reviews.map(review => <Show
+                        review={review}
+                        ></Show>)
+                  }
             </div>
       );
 };

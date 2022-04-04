@@ -7,6 +7,8 @@ import Reviews from './components/Reviews/Review';
 import Dashbord from './components/Dashbord/Dashbord'
 import Blog from './components/Blog/Blog'
 import About from './components/About/About'
+import PageNotF from './components/PageNotF/PageNotF';
+
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
         <Route path='/dashbord' element={<Dashbord></Dashbord>}></Route>
         <Route path='/blog' element={<Blog></Blog>}></Route>
         <Route path='/about' element={<About></About>}></Route>
+        <Route path='*' element={<PageNotF></PageNotF>}></Route>
       </Routes>
 
     </div>

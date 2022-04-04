@@ -36,16 +36,25 @@
       
 }
 
-.revieew-section{
-      display: flex;
-      margin-top: 150px;
-      justify-content: center; 
-}
+/* review section */
 
+.review-text{
+      text-align: center;
+      /* margin-top: 200px; */
+      color: rgb(27, 174, 14);
+}
+.revieew-section{
+      display: grid;
+      margin-top: 1px;
+      justify-content: center;
+      grid-template-columns: repeat(3, 1fr); 
+
+}
 .review-btn{
       display: flex;
       justify-content: center;
-      margin-top: 400px;
+      margin-top: 100px;
+      
       
 }
 .rev-btn{
@@ -56,5 +65,6 @@
     border-radius: 10px;
     color: #fff;
     cursor: pointer;
+    text-decoration: none;
 
 }

@@ -1,18 +1,30 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import useReview from "../Hooks/Hooks";
+import Show from "../ShowDetails/Show";
 import "./Home.css";
 
 const Home = () => {
+  const [reviews, setReviews] = useReview()
   return (
     <div>
       <div className="home-container">
         <div className="details-container">
-          <h1 className="text1">Your laptop</h1>
-          <h1 className="text2">is The best laptop</h1>
+          <h1 className="text1">Your Laptop</h1>
+          <h1 className="text2">Is The Best Laptop</h1>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta,
-            ducimus cumque! Quaerat minima neque facilis, nihil aut consectetur
-            voluptas perferendis amet. Atque doloremque, voluptas exercitationem
-            sit aliquid eius deserunt illo.
+            Many people look for low-priced laptops to buy. It is fairly easy to
+            get a good quality brand new high or low budget laptop for a
+            student, businessman, & even office user. The best part is, a new
+            branded laptop has a very cheap or affordable price tag. The most
+            popular brands available in BD are HP, Asus, Dell, Razer, Apple
+            Macbook, Acer, Lenovo, Microsoft, MSI, Gigabyte, i-Life, Walton,
+            Xiaomi MI, iLife, Chuwi, etc. They have at least one series
+            available. Like Dell's Inspiron, Latitude & XPS, Acer's Aspire &
+            TravelMate, Asus' Transformer Book, VivoBook & Zenbook, Lenovo's
+            IdeaPad & ThinkPad, & HP's Spectre, EliteBook, Envy, Pavilion, &
+            ProBook. The price of any Asus laptop & HP laptop is most
+            cost-efficient.
           </p>
           <button className="btn">SHOW DETAILS</button>
         </div>
@@ -24,11 +36,16 @@ const Home = () => {
         </div>
       </div>
       <div className="coustomer-review">
+        <h1 className="review-text">coustomer review(3)</h1>
         <div className="revieew-section">
-          <h1>coustomer review(3)</h1>
+          {reviews.slice(0, 3).map((review) => (
+            <Show review={review}></Show>
+          ))}
         </div>
         <div className="review-btn">
-          <button className="rev-btn">See all Reviews</button>
+          <Link to="/reviews" className="rev-btn">
+            See all Reviews
+          </Link>
         </div>
       </div>
     </div>
