@@ -10,7 +10,7 @@ const Review = () => {
                   {
                         reviews.map(review => <Show
                         review={review}
-                        ></Show>)
+                        key ={review.id}></Show>)
                   }
             </div>
       );

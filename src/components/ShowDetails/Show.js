@@ -3,7 +3,7 @@ import "./Show.css";
 
 const Show = (props) => {
   const { name, img, price, comment, ratting ,cname} = props.review;
-  console.log(name);
+  
   return (
     <div className="cart-container">
       <div className="cart">
